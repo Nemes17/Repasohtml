@@ -44,7 +44,10 @@ body {
     margin-left: 15px; 
     font-size: 14px;
 }
-
+.menu a:hover{
+    background-color: #b057ff;
+    border-radius: 10px;
+}
 
 .contenedor-principal {
     display: flex; 
@@ -91,4 +94,57 @@ p {
     max-width: 100%;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(155, 44, 255, 0.2); 
+}
+table{
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th,td{
+ border: 1px solid white;
+ padding: 8px;
+}
+th{
+    background-color: #b057ff;
+}
+
+tr:nth-child(even){
+    background-color: #b057ff;
+}
+td:hover{
+    background-color: navy;
+    cursor: pointer;
+}
+.cuerpo{
+    display: flex;
+    background-color: #2b1055;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 50vh;
+    width: 190vh;
+}
+article{
+    width: 300px;
+    height: 200px;
+}
+.forma{
+    width: 400px;
+    height: 600px;
+    background-color: #a09abc;
+    border: 1px #b057ff;
+    border-radius: 10px;
+    gap: 30px;
+}
+.forma1{
+    width: 400px;
+    height: 600px;
+    background-color: #a09abc;
+    border: 1px #b057ff;
+    border-radius: 10px;
+    gap: 30px;
+}
+form{
+    text-align: center;
+
 }
